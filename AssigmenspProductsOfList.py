@@ -12,3 +12,4 @@ for i in range(len(numbers)):
     product = product*numbers[i]
 
 print(product)
+
