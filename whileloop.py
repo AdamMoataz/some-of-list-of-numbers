@@ -20,7 +20,7 @@ write the code to print the number from 2 to 9 and print  hello when i is equal 
 """
 i = 2
 while i <10:
-    print(i)
+    # print(i)
     # if i == 5:
         # print("hello")
     i+=1
@@ -30,8 +30,29 @@ ask the user till where to print the number and write a while loop to print the 
  number
 """
 
-number = int(input("Please enter the number"))
-i = 0
-while i <number:
-    print(i)
+# number = int(input("Please enter the number"))
+# i = 0
+# while i <number:
+    # print(i)
+    # i+=1
+
+# break statement
+"""
+write a while loop to print the number from 1 to 10 but it should stop when the number reaches 5 stop
+"""
+i = 1
+while i <11:
+    # print(i)
+    if i == 5:
+        break
+
     i+=1
+
+# countinue statement
+i = 1
+while i <11:  
+    i+=1 
+    if i == 5:
+        continue
+    print(i)
+    
